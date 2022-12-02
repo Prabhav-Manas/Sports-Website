@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+body{
+  background-color: #222;
+  color: #fff;
+}
+
+h2{
+  font-weight: bolder;
+}
+
+/******************************NAV BAR STARTS******************************/
+input {
+  border-radius: 50px;
+  border: none;
+}
+::placeholder {
+  padding-left: 3%;
+}
+/*navbar starts*/
+.navbar-nav li{
+  margin-left: 0.5rem!important;
+}
+.shoppingbag {
+  height: 42px;
+  width: auto;
+}
+.magnifying-glass-container {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+}
+.cart-container {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  top: -38px;
+  left: 40px;
+  text-align: center;
+  margin-left: 10px;
+}
+.cart-container span {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    border-radius: 100px;
+    right: -6px;
+    top: -9px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.collapse .fa {
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    font-size: 25px;
+}
+li.nav-item.active a {
+    color: #fff!important;
+    padding-left: 5px;
+}
+li.nav-item.active {
+    background: red;
+    border-radius: 10px;
+}
+/******************************NAV BAR ENDS******************************/
+
+
+/******************************ABOUT SECTION STARTS******************************/
+h1{
+	font-weight: bolder;
+}
+h2{
+  font-size: 1rem;
+}
+.about-text{
+  text-align: justify;
+}
+/******************************ABOUT SECTION ENDS******************************/
+
+
+
+/******************************MISSION SECTION STARTS******************************/
+.mission-text{
+  text-align: justify;
+}
+/*******************************MISSION SECTION ENDS******************************/
+
+
+
+/******************************VISION SECTION STARTS******************************/
+.vision-text{
+  text-align: justify;
+}
+/*******************************VISION SECTION ENDS******************************/
+
+
+/******************************PRODUCT SECTION STARTS******************************/
+.product-img{
+  width: auto;
+  height: 200px;
+}
+/******************************PRODUCT SECTION ENDS******************************/
+
+
+
+/******************************FOOTER SECTION ENDS******************************/
+.rectangle2 {
+  background-image: url("../images/home4_footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-li {
+  color: #cccccc;
+  width: 100%;
+}
+.footer-ul h2 {
+  color: white;
+}
+footer ul li{
+  list-style: none;  
+}
+/******************************FOOTER SECTION ENDS******************************/
